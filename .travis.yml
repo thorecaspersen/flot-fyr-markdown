@@ -1,0 +1,20 @@
+sudo: false
+language: node_js
+node_js:
+  - 10
+cache:
+  directories:
+    - "$HOME/.npm"
+branches:
+  only:
+    - master
+notifications:
+  email: false
+before_script:
+  - npm prune
+script:
+  - commitlint-travis
+  - npm run test
+  - npm run build:lib
+after_success:
+  - npm run semantic-release

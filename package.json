@@ -1,0 +1,67 @@
+{
+  "name": "flot-fyr-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node demo.js",
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thorecaspersen/flot-fyr-markdown.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "lib",
+    "input",
+    "output",
+    "index.js",
+    "demo.js"
+  ],
+  "author": "Thore Caspersen",
+  "license": "",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "balanced-match": "^1.0.0",
+    "block-elements": "^1.2.0",
+    "front-matter": "^3.0.2",
+    "github-slugger": "^1.2.1",
+    "kebab-case": "^1.0.0",
+    "line-column": "^1.0.2",
+    "lodash": "^4.17.11",
+    "mdast-util-to-string": "^1.0.6",
+    "pascal-case": "^2.0.1",
+    "postcss": "^7.0.16",
+    "postcss-js": "^2.0.1",
+    "prettier": "^1.17.1",
+    "property-information": "^3.2.0",
+    "react-attr-converter": "^0.3.1",
+    "recursive-copy": "^2.0.10",
+    "rehype-raw": "^4.0.0",
+    "remark-parse": "^6.0.3",
+    "remark-rehype": "^4.0.0",
+    "replace-ext": "^1.0.0",
+    "stringify-entities": "^2.0.0",
+    "stringify-object": "^3.3.0",
+    "strip-indent": "^3.0.0",
+    "through2": "^3.0.1",
+    "unified": "^7.1.0",
+    "unist-util-visit": "^1.4.1",
+    "url-parse": "^1.4.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/travis-cli": "^8.0.0",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.13.12",
+    "semantic-release-cli": "^5.1.1"
+  }
+}
