@@ -1,6 +1,6 @@
 {
   "name": "flot-fyr-markdown",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -63,5 +63,10 @@
     "cz-conventional-changelog": "^2.1.0",
     "semantic-release": "^15.13.12",
     "semantic-release-cli": "^5.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

@@ -1,2 +1,2 @@
 # flot-fyr-markdown
-Create react components from markdown files
+I needed a markdown to react transformer. So i wrote it.
