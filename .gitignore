@@ -63,21 +63,9 @@ typings/
 # vsCode
 .vscode
 
-# production
-/build
-
 # misc
 .DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-
-# built component library
-/lib
-
-# built doc
-/docs
-
-# Generated component Library
-/config/componentData.js
