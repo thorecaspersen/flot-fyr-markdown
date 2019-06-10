@@ -6,6 +6,8 @@ const Timer = require('./timer');
 import { Watcher } from './watcher';
 import LetsDoThis from 'tequila-ui/LetsDoThis';
 import FancyReactComponent from 'antd/FancyReactComponent';
+import headline from 'semantic-ui-react/headline';
+import quotes from 'tequila-ui/quotes';
 
 const frontMatter = {
   title: 'Everything is ok',
