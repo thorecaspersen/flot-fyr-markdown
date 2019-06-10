@@ -4,9 +4,9 @@ Everything is ok
 import React from 'react';
 const Timer = require('./timer');
 import { Watcher } from './watcher';
+import headline from 'semantic-ui-react/headline';
 import LetsDoThis from 'tequila-ui/LetsDoThis';
 import FancyReactComponent from 'antd/FancyReactComponent';
-import headline from 'semantic-ui-react/headline';
 import quotes from 'tequila-ui/quotes';
 
 const frontMatter = {
@@ -20,7 +20,7 @@ export default class Testmarkdown extends React.PureComponent {
     return (
       <div>
         <headline>An h1 header</headline>
-        <LetsDoThis />
+        <headline />
         <p>Paragraphs are separated by a blank line. </p>
         <p>
           2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and{' '}
