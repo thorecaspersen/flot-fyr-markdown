@@ -10,7 +10,8 @@ option = {
     h1: "headline",
     blockquote: "quotes"
   },
-  cutSrcLinks: true // <img src="https://octodex.github.com/images/yaktocat.png" /> -> <img src="/images/yaktocat.png" />
+  cutSrcLinks: true, // <img src="https://octodex.github.com/images/yaktocat.png" /> -> <img src="/images/yaktocat.png" />
+  numberedFiles: true
 };
 
 flotFyrTransformer("./input", "./output", option);
