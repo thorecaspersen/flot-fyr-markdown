@@ -17,7 +17,8 @@ option = {
 printOption = {
   defualtImport: `antd`,
   cutSrcLinks: true, // <img src="https://octodex.github.com/images/yaktocat.png" /> -> <img src="/images/yaktocat.png" />
-  numberedFiles: true
+  numberedFiles: true,
+  bodyWrapper: "LOL"
 };
 
 flotFyrTransformer("./input", "./output", option, { print: printOption });
