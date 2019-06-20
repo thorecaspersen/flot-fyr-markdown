@@ -15,7 +15,7 @@ export default class DefualtNameSetByFlotFyrToComponentModuleFunc extends React.
   render() {
     const props = this.props;
     return (
-      <div>
+      <LOL>
         <PrintNote bg="#ec985a">
           <p>
             This is a Print
@@ -41,7 +41,7 @@ export default class DefualtNameSetByFlotFyrToComponentModuleFunc extends React.
             <code className="language-js">var test = "hello";{'\n'}</code>
           </pre>
         </PrintNote>
-      </div>
+      </LOL>
     );
   }
 }
