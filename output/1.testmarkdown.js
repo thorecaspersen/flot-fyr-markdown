@@ -4,9 +4,10 @@ Everything is ok
 import React from 'react';
 const Timer = require('./timer');
 import { Watcher } from './watcher';
-import headline from 'semantic-ui-react/headline';
+import Chil from 'tequila-ui/Chil';
 import LetsDoThis from 'tequila-ui/LetsDoThis';
 import FancyReactComponent from 'antd/FancyReactComponent';
+import headline from 'semantic-ui-react/headline';
 import quotes from 'tequila-ui/quotes';
 
 const frontMatter = {
@@ -20,7 +21,7 @@ export default class Testmarkdown extends React.PureComponent {
     return (
       <div>
         <headline>An h1 header</headline>
-        <headline />
+        <Chil />
         <p>Paragraphs are separated by a blank line. </p>
         <p>
           2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and{' '}
@@ -40,6 +41,7 @@ export default class Testmarkdown extends React.PureComponent {
           <li>second item</li>
           <li>third item</li>
         </ol>
+        <hr />
         <p>
           Note again how the actual text starts at 4 columns in (4 characters
           from the left side). Here's a code sample:
