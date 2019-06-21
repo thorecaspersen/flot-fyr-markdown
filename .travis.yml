@@ -12,5 +12,7 @@ notifications:
   email: false
 before_script:
   - npm prune
+script:
+  - commitlint-travis
 after_success:
   - npm run semantic-release
