@@ -15,7 +15,7 @@ const frontMatter = {
   quantity: 834
 };
 
-export default class Testmarkdown extends React.PureComponent {
+export default class Print extends React.PureComponent {
   render() {
     const props = this.props;
     return (
