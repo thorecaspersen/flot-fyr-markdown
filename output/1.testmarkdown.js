@@ -15,7 +15,7 @@ const frontMatter = {
   quantity: 834
 };
 
-export default class Print extends React.PureComponent {
+export default class Testmarkdown extends React.PureComponent {
   render() {
     const props = this.props;
     return (
@@ -38,6 +38,11 @@ export default class Print extends React.PureComponent {
         <p>Here's a numbered list:</p>
         <ol>
           <li>first item</li>
+        </ol>
+        <ul>
+          <li>test under bullet</li>
+        </ul>
+        <ol start={2}>
           <li>second item</li>
           <li>third item</li>
         </ol>

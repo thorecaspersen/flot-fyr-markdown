@@ -8,7 +8,7 @@ const frontMatter = {
   title: 'react development env'
 };
 
-export default class Print extends React.PureComponent {
+export default class Testmarkdown extends React.PureComponent {
   render() {
     const props = this.props;
     return (
