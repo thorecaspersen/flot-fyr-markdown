@@ -37,7 +37,7 @@
     "lodash": "^4.17.11",
     "mdast-util-to-string": "^1.0.6",
     "pascal-case": "^2.0.1",
-    "postcss": "^7.0.16",
+    "postcss": "^8.2.10",
     "postcss-js": "^2.0.1",
     "prettier": "^1.17.1",
     "property-information": "^3.2.0",
